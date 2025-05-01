@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-black text-white font-sans transition-colors duration-300;
+}
+
+.animate-glow {
+  box-shadow: 0 0 16px 4px #FFD70055, 0 0 32px 8px #FFD70033;
+}
+
+.animate-fire {
+  animation: fire 1s infinite alternate;
+}
+
+@keyframes fire {
+  0% {
+    filter: brightness(1);
+  }
+
+  100% {
+    filter: brightness(1.5) drop-shadow(0 0 8px #FF5722);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin 4s linear infinite;
+}
+
+@keyframes gradient-move {
+
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-move {
+  background-size: 200% 200%;
+  animation: gradient-move 12s ease-in-out infinite;
+}
+
+.animate-float1 {
+  animation: float1 12s ease-in-out infinite alternate;
+}
+
+.animate-float2 {
+  animation: float2 14s ease-in-out infinite alternate;
+}
+
+.animate-float3 {
+  animation: float3 10s ease-in-out infinite alternate;
+}
+
+.animate-float4 {
+  animation: float4 16s ease-in-out infinite alternate;
+}
+
+.animate-float5 {
+  animation: float5 18s ease-in-out infinite alternate;
+}
+
+@keyframes float1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(30px);
+  }
+}
+
+@keyframes float3 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes float4 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(25px);
+  }
+}
+
+@keyframes float5 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-18px);
+  }
+}
+
+@keyframes particle-float {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "players": [
+    {
+      "username": "mmannuru",
+      "total_solved": 169,
+      "easy_solved": 43,
+      "medium_solved": 107,
+      "hard_solved": 19,
+      "rank": 1,
+      "streak": 0
+    },
+    {
+      "username": "adriftKG",
+      "total_solved": 59,
+      "easy_solved": 22,
+      "medium_solved": 36,
+      "hard_solved": 1,
+      "rank": 2,
+      "streak": 0
+    }
+  ],
+  "last_updated": "2025-05-01T20:22:01Z"
+}
