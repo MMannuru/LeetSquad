@@ -57,6 +57,4 @@ A gamified LeetCode leaderboard that turns your coding practice into a fun compe
 
 Contributions are welcome! Please read our contributing guidelines before submitting pull requests.
 
-## License
-
-MIT
+<img width="1467" alt="image" src="https://github.com/user-attachments/assets/96b91188-de52-4b95-aae5-98ff4937dc68" />
